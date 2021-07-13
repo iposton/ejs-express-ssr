@@ -1,7 +1,9 @@
 # EJS server side rendered with Express
-This is a simple way to server side render a home page without using a js framework. I wanted to build an app that meets the latest trend with minimal use of 3rd party modules. This was the simplest way I could solve my problem.
+This is a simple way to server side render a home page without using a js framework. I wanted to build an app that meets the latest trend with minimal use of 3rd party modules. Embedded Javascript [(EJS)](https://ejs.co/#docs) was the simplest way I could solve my problem.
 
-Steps to build this simple ssr app
+<i>* [Node.js](https://nodejs.org/en/) installed globally is required. I made this on a macbook pro.</i>
+
+#### Steps to build this simple ssr app
 1. <code>cd desktop</code>
 2. <code>mkdir simple-project</code>
 3. <code>cd simple-project</code>
@@ -52,4 +54,35 @@ app.listen(port, function(err) {
 
 ```
 
-6. serve app <code>node server.js</code>
+6. <code>mkdir views</code>
+7. <code>cd views</code>
+8. <code>touch home.ejs</code>
+
+```html
+<!-- homr.ejs
+  -->
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+</head>
+  
+<body>
+    <ul>
+      <% data.forEach((item) => { %>
+        <li><%= item %></li>
+      <% }); %>
+    </ul>
+</body>
+  
+</html>
+
+```
+
+9. <code>cd ..</code>
+10. serve app <code>node server.js</code>
+
+//TODO Host this app on Netlify
