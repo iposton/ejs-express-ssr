@@ -83,6 +83,6 @@ app.listen(port, function(err) {
 ```
 
 9. <code>cd ..</code>
-10. serve app <code>node server.js</code>
+10. serve app <code>node server.js</code> http://localhost:3000/
 
 //TODO Host this app on Netlify
