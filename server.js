@@ -1,6 +1,6 @@
 const express = require('express')
 const ejs = require('ejs')
-const port = 3000
+const port = process.env.PORT || 3000;
 let data = ['data 1', 'data 2', 'data 3']
 
 app = express()
