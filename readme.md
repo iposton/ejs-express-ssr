@@ -1,5 +1,7 @@
-# EJS server side rendered with Express
+# EJS server side rendered with Express Deployed to Heroku
 This is a simple way to server side render a home page without using a js framework. I wanted to build an app that meets the latest trend with minimal use of 3rd party modules. Embedded Javascript [(EJS)](https://ejs.co/#docs) was the simplest way I could solve my problem.
+
+Demo - [https://ejs-ssr.herokuapp.com/](https://ejs-ssr.herokuapp.com/)
 
 <i>* [Node.js](https://nodejs.org/en/) installed globally is required. I made this on a macbook pro.</i>
 
@@ -59,8 +61,7 @@ app.listen(port, function(err) {
 8. <code>touch home.ejs</code>
 
 ```html
-<!-- homr.ejs
-  -->
+<!-- homr.ejs -->
 <!DOCTYPE html>
 <html lang="en">
   
@@ -85,4 +86,14 @@ app.listen(port, function(err) {
 9. <code>cd ..</code>
 10. serve app <code>node server.js</code> http://localhost:3000/
 
-//TODO Host this app on Netlify
+#### Deploy to Heroku
+<i>* [Heroku toolbet](https://blog.heroku.com/the_heroku_toolbelt) required. After I pushed to a new github repo I deployed to heroku with these steps.</i>
+1. <code>touch Procfile</code>
+2. specify server in Procfile <code>web: node server.js</code>
+3. server.js edit line 3 <code>const port = process.env.PORT || 3000;</code>
+4. <code>git heroku login</code>
+5. <code>git heroku create my-ssr</code>
+6. <code>git push heroku main</code>
+7. <code>git heroku open</code>
+
+//TODO fetch data from api to display in home page.
