@@ -1,9 +1,9 @@
-const express = require('express')
-const ejs = require('ejs')
-const port = 3000
+'use strict';
+import express from 'express'
+import ejs from 'ejs'
 let data = ['data 1', 'data 2', 'data 3']
 
-app = express()
+const app = express()
 
 app.get('/', function (req, res) {
   ejs.renderFile('views/home.ejs', {data}, {}, (err, template) => {
@@ -12,7 +12,4 @@ app.get('/', function (req, res) {
   })
 })
 
-app.listen(port, function(err) {
-	if(err) throw err
-	console.log('Server running on port '+port)
-})
+export default app

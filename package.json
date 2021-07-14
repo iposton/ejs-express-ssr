@@ -2,10 +2,12 @@
   "name": "simple-project",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "local-server.js",
+  "type": "module",
   "scripts": {
     "build": "netlify-lambda build express",
-    "start": "node server.js"
+    "start": "node local-server.js",
+    "postinstall": "netlify-lambda install"
   },
   "dependencies": {
     "ejs": "^3.1.6",
