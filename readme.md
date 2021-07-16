@@ -278,3 +278,8 @@ app.listen(port, (err) => {
 })
 
 ```
+
+7. Go to http://localhost:3000/nhlgoalies to see the API data.
+8. To search one item http://localhost:3000/nhlgoalies/samsonov
+
+Live API examples: https://ejs-ssr.herokuapp.com/nhlgoalies https://ejs-ssr.herokuapp.com/nhlgoalies/samsonov
