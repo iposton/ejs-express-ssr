@@ -8,10 +8,11 @@
 </head>
   
 <body>
+  <h3>NHL Goalies</h3>
     <ul>
-      <% data.forEach((item) => { %>
-        <li><%= item %></li>
-      <% }); %>
+      <% for (let item in items) { %>
+        <li><%= items[item].firstName %> <%= items[item].lastName %> - G (<%= items[item].teamAbbreviation %>)</li>
+      <% } %>
     </ul>
 </body>
   

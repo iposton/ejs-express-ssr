@@ -96,4 +96,185 @@ app.listen(port, function(err) {
 6. <code>git push heroku main</code>
 7. <code>git heroku open</code>
 
-//TODO fetch data from api to display in home page.
+#### Create API and fetch data for ui
+I can make my own data to for loop in the ui by using a json file. I am using NHL goalie data that I started in a previous project, but you can use any data that you want to, I am just showing you how to import the json to the server from a separate file.
+
+1. <code>touch nhlGoalies.json</code>
+
+```json
+
+{
+      "Samsonov":{
+        "id": 5617,
+        "firstName": "Ilya",
+        "lastName": "Samsonov",
+        "teamId": 5,
+        "teamAbbreviation": "WSH",
+        "active": true,
+        "numberOne": true,
+        "nhlId": 0,
+        "nhlTeamId": 15,
+        "teamCity": "Washington",
+        "teamName": "Capitals",
+        "teamTwitter": "#ALLCAPS"
+      },
+      "Vanecek":{
+        "id": 14365,
+        "firstName": "Vitek",
+        "lastName": "Vanecek",
+        "teamId": 5,
+        "teamAbbreviation": "WSH",
+        "active": true,
+        "numberOne": false,
+        "nhlId": 0,
+        "nhlTeamId": 15,
+        "teamCity": "Washington",
+        "teamName": "Capitals",
+        "teamTwitter": "#ALLCAPS"
+      }, 
+      "Anderson": {
+        "id": 757,
+        "firstName": "Craig",
+        "lastName": "Anderson",
+        "teamId": 5,
+        "teamAbbreviation": "WSH",
+        "active": false,
+        "numberOne": false,
+        "nhlId": 8467950,
+        "nhlTeamId": 15,
+        "teamCity": "Washington",
+        "teamName": "Capitals",
+        "teamTwitter": "#ALLCAPS"
+      },
+      "Holtby":{
+        "id": 4863,
+        "firstName": "Braden",
+        "lastName": "Holtby",
+        "teamId": 21,
+        "teamAbbreviation": "VAN",
+        "active": true,
+        "numberOne": false,
+        "nhlId": 0,
+        "nhlTeamId": 23,
+        "teamCity": "Vancouver",
+        "teamName": "Canucks",
+        "teamTwitter": "#Canucks"
+      },
+      "Demko": {
+        "id": 13876,
+        "firstName": "Thatcher",
+        "lastName": "Demko",
+        "teamId": 21,
+        "teamAbbreviation": "VAN",
+        "active": true,
+        "numberOne": true,
+        "nhlId": 0,
+        "nhlTeamId": 23,
+        "teamCity": "Vancouver",
+        "teamName": "Canucks",
+        "teamTwitter": "#Canucks"
+      },
+      "Binnington": {
+        "id": 5908,
+        "firstName": "Jordan",
+        "lastName": "Binnington",
+        "teamId": 17,
+        "teamAbbreviation": "STL",
+        "active": true,
+        "numberOne": true,
+        "nhlId": 0,
+        "nhlTeamId": 23,
+        "teamCity": "St. Louis",
+        "teamName": "Blues",
+        "teamTwitter": "#STLBlues"
+      },
+      "Husso": {
+        "id": 13661,
+        "firstName": "Ville",
+        "lastName": "Husso",
+        "teamId": 17,
+        "teamAbbreviation": "STL",
+        "active": true,
+        "numberOne": false,
+        "nhlId": 8478024,
+        "nhlTeamId": 23,
+        "teamCity": "St. Louis",
+        "teamName": "Blues",
+        "teamTwitter": "#STLBlues"
+      }
+}
+
+```
+
+2. In <code>server.js</code> on line 4 <code>const fs = require('fs')</code>
+3. Import <code>json file</code> in <code>server.js</code> <code>let data = fs.readFileSync('nhlGoalies.json'), items = JSON.parse(data)</code>
+
+Now I can pass <code>items</code> into the ui with the <code>EJS module</code>.
+
+4. update <code>home.ejs</code>
+
+```html
+
+<h3>NHL Goalies</h3>
+    <ul>
+      <% for (let item in items) { %>
+        <li><%= items[item].firstName %> <%= items[item].lastName %> - G (<%= items[item].teamAbbreviation %>)</li>
+      <% } %>
+    </ul>
+
+```
+
+I can share this json data to the public by adding a few more lines of code and generate public API that could be fetched by another app. Sounds fun!
+
+5. <code>npm install cors</code>
+6. In <code>server.js</code> on line 7 <code>const cors = require('cors')</code>
+
+```js
+//server.js
+
+const express = require('express')
+const ejs = require('ejs')
+const port = process.env.PORT || 3000
+const fs = require('fs')
+let data = fs.readFileSync('nhlGoalies.json'),
+items = JSON.parse(data)
+const cors = require('cors')
+
+app = express()
+app.use(express.static('public'))
+app.use(cors())
+
+app.get('/nhlgoalies', allItems)
+   
+function allItems(request, response) {
+    response.send(items)
+}
+
+app.get('/nhlgoalies/:nhlgoalie/', search);
+  
+function search(request, response) {
+    let term = request.params.nhlgoalie;
+    let reply = null;
+    term = term.charAt(0).toUpperCase()+ term.slice(1).toLowerCase();
+       
+    if(items[term])
+      reply = items[term]       
+    else
+      reply = {status:"Not Found"}
+       
+    response.send(reply);
+}
+
+app.get('/', (req, res) => {
+  ejs.renderFile('views/home.ejs', {items}, {}, (err, template) => {
+      if (err) throw err
+      res.end(template)
+  })
+})
+
+app.listen(port, (err) => {
+	if(err) throw err
+	console.log('Server running on port '+port)
+})
+
+```
