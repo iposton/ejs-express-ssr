@@ -8,12 +8,14 @@
 </head>
   
 <body>
-  <h3>NHL Goalies</h3>
-    <ul>
+  <section>
+    <ul id="goalies">
+      <h3>NHL Goalies 2021</h3>
       <% for (let item in items) { %>
         <li><%= items[item].firstName %> <%= items[item].lastName %> - G (<%= items[item].teamAbbreviation %>)</li>
       <% } %>
     </ul>
+  </section>
 </body>
   
 </html>
