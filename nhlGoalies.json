@@ -7,11 +7,12 @@
         "teamAbbreviation": "WSH",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8478492,
         "nhlTeamId": 15,
         "teamCity": "Washington",
         "teamName": "Capitals",
-        "teamTwitter": "#ALLCAPS"
+        "teamTwitter": "#ALLCAPS",
+        "teamColorHex": "#041e42"
       },
       "Vanecek":{
         "id": 14365,
@@ -21,11 +22,12 @@
         "teamAbbreviation": "WSH",
         "active": true,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8477970,
         "nhlTeamId": 15,
         "teamCity": "Washington",
         "teamName": "Capitals",
-        "teamTwitter": "#ALLCAPS"
+        "teamTwitter": "#ALLCAPS",
+        "teamColorHex": "#041e42"
       }, 
       "Anderson": {
         "id": 757,
@@ -39,7 +41,8 @@
         "nhlTeamId": 15,
         "teamCity": "Washington",
         "teamName": "Capitals",
-        "teamTwitter": "#ALLCAPS"
+        "teamTwitter": "#ALLCAPS",
+        "teamColorHex": "#041e42"
       },
       "Holtby":{
         "id": 4863,
@@ -49,11 +52,12 @@
         "teamAbbreviation": "VAN",
         "active": true,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8474651,
         "nhlTeamId": 23,
         "teamCity": "Vancouver",
         "teamName": "Canucks",
-        "teamTwitter": "#Canucks"
+        "teamTwitter": "#Canucks",
+        "teamColorHex": "#00205b"
       },
       "Demko": {
         "id": 13876,
@@ -63,11 +67,12 @@
         "teamAbbreviation": "VAN",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8477967,
         "nhlTeamId": 23,
         "teamCity": "Vancouver",
         "teamName": "Canucks",
-        "teamTwitter": "#Canucks"
+        "teamTwitter": "#Canucks",
+        "teamColorHex": "#00205b"
       },
       "Binnington": {
         "id": 5908,
@@ -77,11 +82,12 @@
         "teamAbbreviation": "STL",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8476412,
         "nhlTeamId": 23,
         "teamCity": "St. Louis",
         "teamName": "Blues",
-        "teamTwitter": "#STLBlues"
+        "teamTwitter": "#STLBlues",
+        "teamColorHex": "#002f87"
       },
       "Husso": {
         "id": 13661,
@@ -95,7 +101,8 @@
         "nhlTeamId": 23,
         "teamCity": "St. Louis",
         "teamName": "Blues",
-        "teamTwitter": "#STLBlues"
+        "teamTwitter": "#STLBlues",
+        "teamColorHex": "#002f87"
       },
       "Andersen": {
         "id": 5109,
@@ -105,11 +112,12 @@
         "teamAbbreviation": "TOR",
         "active": true,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8475883,
         "nhlTeamId": 10,
         "teamCity": "Toronto",
         "teamName": "Maple Leafs",
-        "teamTwitter": "#LeafsForever"
+        "teamTwitter": "#LeafsForever",
+        "teamColorHex": "#00205b"
       },
       "Campbell": {
         "id": 5271,
@@ -123,7 +131,8 @@
         "nhlTeamId": 10,
         "teamCity": "Toronto",
         "teamName": "Maple Leafs",
-        "teamTwitter": "#LeafsForever"
+        "teamTwitter": "#LeafsForever",
+        "teamColorHex": "#00205b"
       },
       "Rittich": {
         "id": 11724,
@@ -137,7 +146,8 @@
         "nhlTeamId": 10,
         "teamCity": "Toronto",
         "teamName": "Maple Leafs",
-        "teamTwitter": "#LeafsForever"
+        "teamTwitter": "#LeafsForever",
+        "teamColorHex": "#00205b"
       },
       "Koskinen": {
         "id": 4950,
@@ -147,11 +157,12 @@
         "teamAbbreviation": "EDM",
         "active": true,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8475156,
         "nhlTeamId": 22,
         "teamCity": "Edmonton",
         "teamName": "Oilers",
-        "teamTwitter": "#LetsGoOilers"
+        "teamTwitter": "#LetsGoOilers",
+        "teamColorHex": "#041e42"
       },
       "Smith": {
         "id": 3486,
@@ -165,7 +176,8 @@
         "nhlTeamId": 22,
         "teamCity": "Edmonton",
         "teamName": "Oilers",
-        "teamTwitter": "#LetsGoOilers"
+        "teamTwitter": "#LetsGoOilers",
+        "teamColorHex": "#041e42"
       },
       "Jones": {
         "id": 5122,
@@ -175,11 +187,12 @@
         "teamAbbreviation": "SJS",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8474889,
         "nhlTeamId": 28,
         "teamCity": "San Jose",
         "teamName": "Sharks",
-        "teamTwitter": "#SJSharks"
+        "teamTwitter": "#SJSharks",
+        "teamColorHex": "#006d75"
       },
       "Korenar": {
         "id": 14443,
@@ -193,7 +206,8 @@
         "nhlTeamId": 28,
         "teamCity": "San Jose",
         "teamName": "Sharks",
-        "teamTwitter": "#SJSharks"
+        "teamTwitter": "#SJSharks",
+        "teamColorHex": "#006d75"
       },
       "Driedger": {
         "id": 5540,
@@ -207,7 +221,8 @@
         "nhlTeamId": 13,
         "teamCity": "Florida",
         "teamName": "Panthers",
-        "teamTwitter": "#FLAPanthers"
+        "teamTwitter": "#FLAPanthers",
+        "teamColorHex": "#041e42"
       },
       "Bobrovsky": {
         "id": 4890,
@@ -221,7 +236,8 @@
         "nhlTeamId": 13,
         "teamCity": "Florida",
         "teamName": "Panthers",
-        "teamTwitter": "#FLAPanthers"
+        "teamTwitter": "#FLAPanthers",
+        "teamColorHex": "#041e42"
       },
       "Knight": {
         "id": 30021,
@@ -235,7 +251,8 @@
         "nhlTeamId": 13,
         "teamCity": "Florida",
         "teamName": "Panthers",
-        "teamTwitter": "#FLAPanthers"
+        "teamTwitter": "#FLAPanthers",
+        "teamColorHex": "#041e42"
       },
       "Quick": {
         "id": 4333,
@@ -245,11 +262,12 @@
         "teamAbbreviation": "LAK",
         "active": true,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8471734,
         "nhlTeamId": 26,
         "teamCity": "Los Angeles",
         "teamName": "Kings",
-        "teamTwitter": "#GoKingsGo"
+        "teamTwitter": "#GoKingsGo",
+        "teamColorHex": "#111111"
       },
       "Petersen": {
         "id": 15384,
@@ -263,7 +281,8 @@
         "nhlTeamId": 26,
         "teamCity": "Los Angeles",
         "teamName": "Kings",
-        "teamTwitter": "#GoKingsGo"
+        "teamTwitter": "#GoKingsGo",
+        "teamColorHex": "#111111"
       },
       "Varlamov": {
         "id": 4592,
@@ -273,11 +292,12 @@
         "teamAbbreviation": "NYI",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8473575,
         "nhlTeamId": 2,
         "teamCity": "New York",
         "teamName": "Islanders",
-        "teamTwitter": "#Isles"
+        "teamTwitter": "#Isles",
+        "teamColorHex": "#00539b"
       },
       "Sorokin": {
         "id": 28379,
@@ -291,7 +311,8 @@
         "nhlTeamId": 2,
         "teamCity": "New York",
         "teamName": "Islanders",
-        "teamTwitter": "#Isles"
+        "teamTwitter": "#Isles",
+        "teamColorHex": "#00539b"
       },
       "Price": {
         "id": 4294,
@@ -301,11 +322,12 @@
         "teamAbbreviation": "MTL",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8471679,
         "nhlTeamId": 8,
         "teamCity": "Montreal",
         "teamName": "Canadiens",
-        "teamTwitter": "#GoHabsGo"
+        "teamTwitter": "#GoHabsGo",
+        "teamColorHex": "#af1e2d"
       },
       "Allen":{
         "id": 5107,
@@ -319,7 +341,8 @@
         "nhlTeamId": 8,
         "teamCity": "Montreal",
         "teamName": "Canadiens",
-        "teamTwitter": "#GoHabsGo"
+        "teamTwitter": "#GoHabsGo",
+        "teamColorHex": "#af1e2d"
       },
       "Ullmark": {
         "id": 5842,
@@ -329,11 +352,12 @@
         "teamAbbreviation": "BUF",
         "active": false,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8476999,
         "nhlTeamId": 7,
         "teamCity": "Buffalo",
         "teamName": "Sabres",
-        "teamTwitter": "#LetsGoBuffalo"
+        "teamTwitter": "#LetsGoBuffalo",
+        "teamColorHex": "#002654"
       }, 
       "Tokarski": {
         "id": 4759,
@@ -347,7 +371,8 @@
         "nhlTeamId": 7,
         "teamCity": "Buffalo",
         "teamName": "Sabres",
-        "teamTwitter": "#LetsGoBuffalo"
+        "teamTwitter": "#LetsGoBuffalo",
+        "teamColorHex": "#002654"
       },
       "Georgiev": {
         "id": 13934,
@@ -361,7 +386,8 @@
         "nhlTeamId": 3,
         "teamCity": "New York",
         "teamName": "Rangers",
-        "teamTwitter": "#NYR"
+        "teamTwitter": "#NYR",
+        "teamColorHex": "#0038a8"
       },
       "Shesterkin": {
         "id": 17374,
@@ -371,11 +397,12 @@
         "teamAbbreviation": "NYR",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8478048,
         "nhlTeamId": 3,
         "teamCity": "New York",
         "teamName": "Rangers",
-        "teamTwitter": "#NYR"
+        "teamTwitter": "#NYR",
+        "teamColorHex": "#0038a8"
       },
       "Fleury": {
         "id": 483,
@@ -389,7 +416,8 @@
         "nhlTeamId": 54,
         "teamCity": "Las Vegas",
         "teamName": "Golden Knights",
-        "teamTwitter": "#VegasBorn"
+        "teamTwitter": "#VegasBorn",
+        "teamColorHex": "#b4975a"
       },
       "Lehner": {
         "id": 4867,
@@ -399,11 +427,12 @@
         "teamAbbreviation": "VGK",
         "active": true,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8475215,
         "nhlTeamId": 54,
         "teamCity": "Las Vegas",
         "teamName": "Golden Knights",
-        "teamTwitter": "#VegasBorn"
+        "teamTwitter": "#VegasBorn",
+        "teamColorHex": "#b4975a"
       },
       "Gibson": {
         "id": 5227,
@@ -413,11 +442,12 @@
         "teamAbbreviation": "ANA",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8476434,
         "nhlTeamId": 24,
         "teamCity": "Anaheim",
         "teamName": "Ducks",
-        "teamTwitter": "#FlyTogether"
+        "teamTwitter": "#FlyTogether",
+        "teamColorHex": "#f47a38"
       },
       "Stolarz": {
         "id": 178,
@@ -431,7 +461,8 @@
         "nhlTeamId": 24,
         "teamCity": "Anaheim",
         "teamName": "Ducks",
-        "teamTwitter": "#FlyTogether"
+        "teamTwitter": "#FlyTogether",
+        "teamColorHex": "#f47a38"
       },
       "Vasilevskiy": {
         "id": 5420,
@@ -441,11 +472,12 @@
         "teamAbbreviation": "TBL",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8476883,
         "nhlTeamId": 14,
         "teamCity": "Tampa Bay",
         "teamName": "Lightning",
-        "teamTwitter": "#GoBolts"
+        "teamTwitter": "#GoBolts",
+        "teamColorHex": "#041e42"
       },
       "McElhinney": {
         "id": 5905,
@@ -459,7 +491,8 @@
         "nhlTeamId": 14,
         "teamCity": "Tampa Bay",
         "teamName": "Lightning",
-        "teamTwitter": "#GoBolts"
+        "teamTwitter": "#GoBolts",
+        "teamColorHex": "#041e42"
       },
       "Hellebuyck": {
         "id": 5873,
@@ -469,11 +502,12 @@
         "teamAbbreviation": "WPJ",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8476945,
         "nhlTeamId": 52,
         "teamCity": "Winnipeg",
         "teamName": "Jets",
-        "teamTwitter": "#GoJetsGo"
+        "teamTwitter": "#GoJetsGo",
+        "teamColorHex": "#041e42"
       },
       "Brossoit": {
         "id": 5552,
@@ -487,7 +521,8 @@
         "nhlTeamId": 52,
         "teamCity": "Winnipeg",
         "teamName": "Jets",
-        "teamTwitter": "#GoJetsGo"
+        "teamTwitter": "#GoJetsGo",
+        "teamColorHex": "#041e42"
       },
       "Murray": {
         "id": 5894,
@@ -497,11 +532,27 @@
         "teamAbbreviation": "OTT",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8476899,
         "nhlTeamId": 9,
         "teamCity": "Ottawa",
         "teamName": "Senators",
-        "teamTwitter": "#GoSensGo"
+        "teamTwitter": "#GoSensGo",
+        "teamColorHex": "#c52032"
+      },
+      "Hogberg": {
+        "id": 15452,
+        "firstName": "Marcus",
+        "lastName": "Hogberg",
+        "teamId": 13,
+        "teamAbbreviation": "OTT",
+        "active": true,
+        "numberOne": false,
+        "nhlId": 8477405,
+        "nhlTeamId": 9,
+        "teamCity": "Ottawa",
+        "teamName": "Senators",
+        "teamTwitter": "#GoSensGo",
+        "teamColorHex": "#c52032"
       },
       "Blackwood": {
         "id": 15438,
@@ -511,11 +562,27 @@
         "teamAbbreviation": "NJD",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8478406,
         "nhlTeamId": 1,
         "teamCity": "New Jersey",
         "teamName": "Devils",
-        "teamTwitter": "#NJDevils"
+        "teamTwitter": "#NJDevils",
+        "teamColorHex": "#ce1126"
+      },
+      "Dell": {
+        "id": 10074,
+        "firstName": "Aaron",
+        "lastName": "Dell",
+        "teamId": 7,
+        "teamAbbreviation": "NJD",
+        "active": true,
+        "numberOne": false,
+        "nhlId": 8477180,
+        "nhlTeamId": 1,
+        "teamCity": "New Jersey",
+        "teamName": "Devils",
+        "teamTwitter": "#NJDevils",
+        "teamColorHex": "#ce1126"
       },
       "Greiss": {
         "id": 4351,
@@ -525,11 +592,12 @@
         "teamAbbreviation": "DET",
         "active": true,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8471306,
         "nhlTeamId": 17,
         "teamCity": "Detroit",
         "teamName": "Red Wings",
-        "teamTwitter": "#LGRW"
+        "teamTwitter": "#LGRW",
+        "teamColorHex": "#ce1126"
       },
       "Bernier": {
         "id": 4271,
@@ -543,7 +611,8 @@
         "nhlTeamId": 17,
         "teamCity": "Detroit",
         "teamName": "Red Wings",
-        "teamTwitter": "#LGRW"
+        "teamTwitter": "#LGRW",
+        "teamColorHex": "#ce1126"
       },
       "Merzlikins": {
         "id": 15690,
@@ -552,12 +621,13 @@
         "teamId": 19,
         "teamAbbreviation": "CBJ",
         "active": true,
-        "numberOne": true,
+        "numberOne": false,
         "nhlId": 8478007,
         "nhlTeamId": 29,
         "teamCity": "Columbus",
         "teamName": "Blue Jackets",
-        "teamTwitter": "#CBJ"
+        "teamTwitter": "#CBJ",
+        "teamColorHex": "#002654"
       },
       "Korpisalo": {
         "id": 5877,
@@ -567,11 +637,12 @@
         "teamAbbreviation": "CBJ",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8476914,
         "nhlTeamId": 29,
         "teamCity": "Columbus",
         "teamName": "Blue Jackets",
-        "teamTwitter": "#CBJ"
+        "teamTwitter": "#CBJ",
+        "teamColorHex": "#002654"
       },
       "Elliott": {
         "id": 4305,
@@ -585,7 +656,8 @@
         "nhlTeamId": 4,
         "teamCity": "Philadelphia",
         "teamName": "Flyers",
-        "teamTwitter": "#AnytimeAnywhere"
+        "teamTwitter": "#AnytimeAnywhere",
+        "teamColorHex": "#f74902"
       },
       "Hart": {
         "id": 15154,
@@ -595,11 +667,12 @@
         "teamAbbreviation": "PHI",
         "active": true,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8479394,
         "nhlTeamId": 4,
         "teamCity": "Philadelphia",
         "teamName": "Flyers",
-        "teamTwitter": "#AnytimeAnywhere"
+        "teamTwitter": "#AnytimeAnywhere",
+        "teamColorHex": "#f74902"
       },
       "Kuemper": {
         "id": 5168,
@@ -609,11 +682,27 @@
         "teamAbbreviation": "ARI",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8475311,
         "nhlTeamId": 53,
         "teamCity": "Arizona",
         "teamName": "Coyotes",
-        "teamTwitter": "#Yotes"
+        "teamTwitter": "#Yotes",
+        "teamColorHex": "#8c2633"
+      },
+      "Raanta": {
+        "id": 5296,
+        "firstName": "Antti",
+        "lastName": "Raanta",
+        "teamId": 30,
+        "teamAbbreviation": "ARI",
+        "active": true,
+        "numberOne": true,
+        "nhlId": 8477293,
+        "nhlTeamId": 53,
+        "teamCity": "Arizona",
+        "teamName": "Coyotes",
+        "teamTwitter": "#Yotes",
+        "teamColorHex": "#8c2633"
       },
       "Grubauer": {
         "id": 5176,
@@ -623,11 +712,12 @@
         "teamAbbreviation": "COL",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8475831,
         "nhlTeamId": 21,
         "teamCity": "Colorado",
         "teamName": "Avalanche",
-        "teamTwitter": "#GoAvsGo"
+        "teamTwitter": "#GoAvsGo",
+        "teamColorHex": "#6f263d"
       },
       "Dubnyk": {
         "id": 4666,
@@ -637,11 +727,12 @@
         "teamAbbreviation": "COL",
         "active": true,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8471227,
         "nhlTeamId": 21,
         "teamCity": "Colorado",
         "teamName": "Avalanche",
-        "teamTwitter": "#GoAvsGo"
+        "teamTwitter": "#GoAvsGo",
+        "teamColorHex": "#6f263d"
       },
       "Markstrom": {
         "id": 4874,
@@ -651,11 +742,12 @@
         "teamAbbreviation": "CGY",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8474593,
         "nhlTeamId": 20,
         "teamCity": "Calgary",
         "teamName": "Flames",
-        "teamTwitter": "#CofRed"
+        "teamTwitter": "#CofRed",
+        "teamColorHex": "#c8102e"
       },
       "Oettinger": {
         "id": 18035,
@@ -669,7 +761,8 @@
         "nhlTeamId": 25,
         "teamCity": "Dallas",
         "teamName": "Stars",
-        "teamTwitter": "#GoStars"
+        "teamTwitter": "#GoStars",
+        "teamColorHex": "#006847"
       },
       "Khudobin": {
         "id": 4763,
@@ -683,7 +776,8 @@
         "nhlTeamId": 25,
         "teamCity": "Dallas",
         "teamName": "Stars",
-        "teamTwitter": "#GoStars"
+        "teamTwitter": "#GoStars",
+        "teamColorHex": "#006847"
       },
       "Rask": {
         "id": 4326,
@@ -693,11 +787,12 @@
         "teamAbbreviation": "BOS",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8471695,
         "nhlTeamId": 6,
         "teamCity": "Boston",
         "teamName": "Bruins",
-        "teamTwitter": "#NHLBruins"
+        "teamTwitter": "#NHLBruins",
+        "teamColorHex": "#ffb81c"
       },
       "Swayman": {
         "id": 28418,
@@ -711,7 +806,8 @@
         "nhlTeamId": 6,
         "teamCity": "Boston",
         "teamName": "Bruins",
-        "teamTwitter": "#NHLBruins"
+        "teamTwitter": "#NHLBruins",
+        "teamColorHex": "#ffb81c"
       },
       "Saros": {
         "id": 5877,
@@ -721,11 +817,27 @@
         "teamAbbreviation": "NSH",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8477424,
         "nhlTeamId": 18,
         "teamCity": "Nashville",
         "teamName": "Predators",
-        "teamTwitter": "#Preds"
+        "teamTwitter": "#Preds",
+        "teamColorHex": "#ffb81c"
+      },
+      "Kaskisuo": {
+        "id": 13660,
+        "firstName": "Kasimir",
+        "lastName": "Kaskisuo",
+        "teamId": 18,
+        "teamAbbreviation": "NSH",
+        "active": true,
+        "numberOne": true,
+        "nhlId": 8479288,
+        "nhlTeamId": 18,
+        "teamCity": "Nashville",
+        "teamName": "Predators",
+        "teamTwitter": "#Preds",
+        "teamColorHex": "#ffb81c"
       },
       "Talbot": {
         "id": 5277,
@@ -735,11 +847,12 @@
         "teamAbbreviation": "MIN",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8475660,
         "nhlTeamId": 30,
         "teamCity": "Minnesota",
         "teamName": "Wild",
-        "teamTwitter": "#MNWild"
+        "teamTwitter": "#MNWild",
+        "teamColorHex": "#a6192e"
       },
       "Kahkonen": {
         "id": 17333,
@@ -753,7 +866,8 @@
         "nhlTeamId": 30,
         "teamCity": "Minnesota",
         "teamName": "Wild",
-        "teamTwitter": "#MNWild"
+        "teamTwitter": "#MNWild",
+        "teamColorHex": "#a6192e"
       },
       "Nedeljkovic": {
         "id": 11703,
@@ -767,7 +881,8 @@
         "nhlTeamId": 12,
         "teamCity": "Carolina",
         "teamName": "Hurricanes",
-        "teamTwitter": "#LetsGoCanes"
+        "teamTwitter": "#LetsGoCanes",
+        "teamColorHex": "#cc0000"
       },
       "Mrazek": {
         "id": 5163,
@@ -777,11 +892,12 @@
         "teamAbbreviation": "CAR",
         "active": true,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8475852,
         "nhlTeamId": 12,
         "teamCity": "Carolina",
         "teamName": "Hurricanes",
-        "teamTwitter": "#LetsGoCanes"
+        "teamTwitter": "#LetsGoCanes",
+        "teamColorHex": "#cc0000"
       },
       "Jarry": {
         "id": 10083,
@@ -791,11 +907,27 @@
         "teamAbbreviation": "PIT",
         "active": true,
         "numberOne": true,
-        "nhlId": 0,
+        "nhlId": 8477465,
         "nhlTeamId": 5,
         "teamCity": "Pittsburgh",
         "teamName": "Penguins",
-        "teamTwitter": "#LetsGoPens"
+        "teamTwitter": "#LetsGoPens",
+        "teamColorHex": "#000000"
+      },
+      "DeSmith": {
+        "id": 13873,
+        "firstName": "Casey",
+        "lastName": "DeSmith",
+        "teamId": 10,
+        "teamAbbreviation": "PIT",
+        "active": true,
+        "numberOne": false,
+        "nhlId": 8479193,
+        "nhlTeamId": 5,
+        "teamCity": "Pittsburgh",
+        "teamName": "Penguins",
+        "teamTwitter": "#LetsGoPens",
+        "teamColorHex": "#000000"
       },
       "Lankinen": {
         "id": 17354,
@@ -809,7 +941,8 @@
         "nhlTeamId": 16,
         "teamCity": "Chicago",
         "teamName": "Blackhawks",
-        "teamTwitter": "#Blackhawks"
+        "teamTwitter": "#Blackhawks",
+        "teamColorHex": "#cf0a2c"
       },
       "Subban": {
         "id": 5528,
@@ -819,10 +952,11 @@
         "teamAbbreviation": "CHI",
         "active": true,
         "numberOne": false,
-        "nhlId": 0,
+        "nhlId": 8476876,
         "nhlTeamId": 16,
         "teamCity": "Chicago",
         "teamName": "Blackhawks",
-        "teamTwitter": "#Blackhawks"
+        "teamTwitter": "#Blackhawks",
+        "teamColorHex": "#cf0a2c"
       }
 }
