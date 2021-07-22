@@ -283,3 +283,15 @@ app.listen(port, (err) => {
 8. To search one item http://localhost:3000/nhlgoalies/samsonov
 
 Live API examples: https://ejs-ssr.herokuapp.com/nhlgoalies https://ejs-ssr.herokuapp.com/nhlgoalies/samsonov
+
+#### Get request examples
+This api can be fetched by using a http Get request. Here is an example of how to get the data from this api using angular and the <code>HttpClient Module</code>.
+
+```ts
+
+ this.http.get('https://ejs-ssr.herokuapp.com/nhlgoalies')
+   .subscribe(data => {
+        console.log(data)
+    }) 
+
+```
